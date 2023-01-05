@@ -1,0 +1,35 @@
+C:\Users\usermabatule\Desktop\Universidad\Training Nice\Proyecto Final\Jobs-BackEnd\UnitTest Exercise\UnitTest Exercise\bin\Debug\net6.0\appsettings.Development.json
+C:\Users\usermabatule\Desktop\Universidad\Training Nice\Proyecto Final\Jobs-BackEnd\UnitTest Exercise\UnitTest Exercise\bin\Debug\net6.0\appsettings.json
+C:\Users\usermabatule\Desktop\Universidad\Training Nice\Proyecto Final\Jobs-BackEnd\UnitTest Exercise\UnitTest Exercise\bin\Debug\net6.0\UnitTest Exercise.exe
+C:\Users\usermabatule\Desktop\Universidad\Training Nice\Proyecto Final\Jobs-BackEnd\UnitTest Exercise\UnitTest Exercise\bin\Debug\net6.0\UnitTest Exercise.deps.json
+C:\Users\usermabatule\Desktop\Universidad\Training Nice\Proyecto Final\Jobs-BackEnd\UnitTest Exercise\UnitTest Exercise\bin\Debug\net6.0\UnitTest Exercise.runtimeconfig.json
+C:\Users\usermabatule\Desktop\Universidad\Training Nice\Proyecto Final\Jobs-BackEnd\UnitTest Exercise\UnitTest Exercise\bin\Debug\net6.0\UnitTest Exercise.dll
+C:\Users\usermabatule\Desktop\Universidad\Training Nice\Proyecto Final\Jobs-BackEnd\UnitTest Exercise\UnitTest Exercise\bin\Debug\net6.0\UnitTest Exercise.pdb
+C:\Users\usermabatule\Desktop\Universidad\Training Nice\Proyecto Final\Jobs-BackEnd\UnitTest Exercise\UnitTest Exercise\bin\Debug\net6.0\Microsoft.OpenApi.dll
+C:\Users\usermabatule\Desktop\Universidad\Training Nice\Proyecto Final\Jobs-BackEnd\UnitTest Exercise\UnitTest Exercise\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\usermabatule\Desktop\Universidad\Training Nice\Proyecto Final\Jobs-BackEnd\UnitTest Exercise\UnitTest Exercise\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\usermabatule\Desktop\Universidad\Training Nice\Proyecto Final\Jobs-BackEnd\UnitTest Exercise\UnitTest Exercise\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\usermabatule\Desktop\Universidad\Training Nice\Proyecto Final\Jobs-BackEnd\UnitTest Exercise\UnitTest Exercise\obj\Debug\net6.0\UnitTest Exercise.csproj.AssemblyReference.cache
+C:\Users\usermabatule\Desktop\Universidad\Training Nice\Proyecto Final\Jobs-BackEnd\UnitTest Exercise\UnitTest Exercise\obj\Debug\net6.0\UnitTest Exercise.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\usermabatule\Desktop\Universidad\Training Nice\Proyecto Final\Jobs-BackEnd\UnitTest Exercise\UnitTest Exercise\obj\Debug\net6.0\UnitTest Exercise.AssemblyInfoInputs.cache
+C:\Users\usermabatule\Desktop\Universidad\Training Nice\Proyecto Final\Jobs-BackEnd\UnitTest Exercise\UnitTest Exercise\obj\Debug\net6.0\UnitTest Exercise.AssemblyInfo.cs
+C:\Users\usermabatule\Desktop\Universidad\Training Nice\Proyecto Final\Jobs-BackEnd\UnitTest Exercise\UnitTest Exercise\obj\Debug\net6.0\UnitTest Exercise.csproj.CoreCompileInputs.cache
+C:\Users\usermabatule\Desktop\Universidad\Training Nice\Proyecto Final\Jobs-BackEnd\UnitTest Exercise\UnitTest Exercise\obj\Debug\net6.0\UnitTest Exercise.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\usermabatule\Desktop\Universidad\Training Nice\Proyecto Final\Jobs-BackEnd\UnitTest Exercise\UnitTest Exercise\obj\Debug\net6.0\UnitTest Exercise.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\usermabatule\Desktop\Universidad\Training Nice\Proyecto Final\Jobs-BackEnd\UnitTest Exercise\UnitTest Exercise\obj\Debug\net6.0\staticwebassets\msbuild.UnitTest Exercise.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\usermabatule\Desktop\Universidad\Training Nice\Proyecto Final\Jobs-BackEnd\UnitTest Exercise\UnitTest Exercise\obj\Debug\net6.0\staticwebassets\msbuild.build.UnitTest Exercise.props
+C:\Users\usermabatule\Desktop\Universidad\Training Nice\Proyecto Final\Jobs-BackEnd\UnitTest Exercise\UnitTest Exercise\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.UnitTest Exercise.props
+C:\Users\usermabatule\Desktop\Universidad\Training Nice\Proyecto Final\Jobs-BackEnd\UnitTest Exercise\UnitTest Exercise\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.UnitTest Exercise.props
+C:\Users\usermabatule\Desktop\Universidad\Training Nice\Proyecto Final\Jobs-BackEnd\UnitTest Exercise\UnitTest Exercise\obj\Debug\net6.0\staticwebassets.pack.json
+C:\Users\usermabatule\Desktop\Universidad\Training Nice\Proyecto Final\Jobs-BackEnd\UnitTest Exercise\UnitTest Exercise\obj\Debug\net6.0\staticwebassets.build.json
+C:\Users\usermabatule\Desktop\Universidad\Training Nice\Proyecto Final\Jobs-BackEnd\UnitTest Exercise\UnitTest Exercise\obj\Debug\net6.0\staticwebassets.development.json
+C:\Users\usermabatule\Desktop\Universidad\Training Nice\Proyecto Final\Jobs-BackEnd\UnitTest Exercise\UnitTest Exercise\obj\Debug\net6.0\scopedcss\bundle\UnitTest Exercise.styles.css
+C:\Users\usermabatule\Desktop\Universidad\Training Nice\Proyecto Final\Jobs-BackEnd\UnitTest Exercise\UnitTest Exercise\obj\Debug\net6.0\UnitTest Exercise.csproj.CopyComplete
+C:\Users\usermabatule\Desktop\Universidad\Training Nice\Proyecto Final\Jobs-BackEnd\UnitTest Exercise\UnitTest Exercise\obj\Debug\net6.0\UnitTest Exercise.dll
+C:\Users\usermabatule\Desktop\Universidad\Training Nice\Proyecto Final\Jobs-BackEnd\UnitTest Exercise\UnitTest Exercise\obj\Debug\net6.0\refint\UnitTest Exercise.dll
+C:\Users\usermabatule\Desktop\Universidad\Training Nice\Proyecto Final\Jobs-BackEnd\UnitTest Exercise\UnitTest Exercise\obj\Debug\net6.0\UnitTest Exercise.pdb
+C:\Users\usermabatule\Desktop\Universidad\Training Nice\Proyecto Final\Jobs-BackEnd\UnitTest Exercise\UnitTest Exercise\obj\Debug\net6.0\UnitTest Exercise.genruntimeconfig.cache
+C:\Users\usermabatule\Desktop\Universidad\Training Nice\Proyecto Final\Jobs-BackEnd\UnitTest Exercise\UnitTest Exercise\obj\Debug\net6.0\ref\UnitTest Exercise.dll
+C:\Users\usermabatule\Desktop\Universidad\Training Nice\Proyecto Final\Jobs-BackEnd\UnitTest Exercise\UnitTest Exercise\bin\Debug\net6.0\NodaTime.dll
+C:\Users\usermabatule\Desktop\Universidad\Training Nice\Proyecto Final\Jobs-BackEnd\UnitTest Exercise\UnitTest Exercise\bin\Debug\net6.0\TimeZoneConverter.dll
+C:\Users\usermabatule\Desktop\Universidad\Training Nice\Proyecto Final\Jobs-BackEnd\UnitTest Exercise\UnitTest Exercise\bin\Debug\net6.0\TimeZoneConverter.Posix.dll
