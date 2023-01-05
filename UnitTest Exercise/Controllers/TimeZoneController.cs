@@ -13,24 +13,25 @@ namespace UnitTest_Exercise.Controllers
     public class TimeZoneController : Controller
     {
         private readonly ITimeRepository _timeRepository;
-        public IConfiguration _configuration { get; set; }
 
-        public TimeZoneController(ITimeRepository timeRepository, IConfiguration configuration)
+        public TimeZoneController(ITimeRepository timeRepository)
         {
             _timeRepository = timeRepository;
  
-            _configuration = configuration;
         }
         [HttpPost]
         [Route("getConvertDate")]
-        public IActionResult getConvertTimeZone([FromBody] InputTimeZoneModel inDate)
+        public ActionResult getConvertTimeZone([FromBody] InputTimeZoneModel inDate)
         {
             try
             {
+                DateTime resultTime = _timeRepository.GetConvertTimeZone(inDate);
+                if (resultTime.Year == 1) throw new Exception();
                 var result = new { 
                     ok="ok",
-                    result= _timeRepository.getConvertTimeZone(inDate).TimeOfDay
+                    result= resultTime.TimeOfDay
                 };
+                
                 return Ok(result);
             }
             catch (Exception e)
@@ -40,14 +41,14 @@ namespace UnitTest_Exercise.Controllers
         }
         [HttpPost]
         [Route("getOriginDaylightSavingTime")]
-        public IActionResult getOriginisDaylightSavingTime([FromBody] InputTimeZoneModel inDate)
+        public ActionResult getOriginisDaylightSavingTime([FromBody] InputTimeZoneModel inDate)
         {
             try
             {
                 var result = new
                 {
                     ok = "ok",
-                    result = _timeRepository.isDaylightSavingTime(inDate.Datatime) ? "It's daylight saving time" : "It is not daylight saving time"
+                    result = _timeRepository.IsDaylightSavingTime(inDate.Datatime) ? "It's daylight saving time" : "It is not daylight saving time"
                 };
                 return Ok(result);
             }
@@ -58,33 +59,36 @@ namespace UnitTest_Exercise.Controllers
         }
         [HttpPost]
         [Route("getDestinationDaylightSavingTime")]
-        public IActionResult getDestinationDaylightSavingTime([FromBody] InputTimeZoneModel inDate)
+        public ActionResult getDestinationDaylightSavingTime([FromBody] InputTimeZoneModel inDate)
         {
-            DateTime newDate = _timeRepository.getConvertTimeZone(inDate);
+            DateTime newDate = _timeRepository.GetConvertTimeZone(inDate);
             try
             {
-                var result = new
+                var result = new OutputTimeZoneModel
                 {
                     ok = "ok",
-                    result = _timeRepository.isDaylightSavingTime(newDate) ? "It's daylight saving time" : "It is not daylight saving time"
+                    result = _timeRepository.IsDaylightSavingTime(newDate) ? "It's daylight saving time" : "It is not daylight saving time"
                 };
+                if (newDate.Year == 1) throw new Exception();
                 return Ok(result);
             }
             catch (Exception e)
             {
                 return BadRequest(e);
             }
+
         }
         [HttpPost]
         [Route("getDiferenceTime")]
-        public IActionResult getDiferenceTime([FromBody] InputTimeZoneModel inDate)
+        public ActionResult getDiferenceTime([FromBody] InputTimeZoneModel inDate)
         {
             try
             {
+                if (!_timeRepository.isCorrectDate(inDate.Datatime)) throw new Exception();
                 var result = new
                 {
                     ok = "ok",
-                    result = _timeRepository.getDiferenceTime(inDate)
+                    result = _timeRepository.GetDiferenceTime(inDate)
                 };
                 return Ok(result);
             }
@@ -95,14 +99,15 @@ namespace UnitTest_Exercise.Controllers
         }
         [HttpPost]
         [Route("getDiferentFormatDate")]
-        public IActionResult getDiferentFormatDate([FromBody] InputTimeZoneModel inDate)
+        public ActionResult getDiferentFormatDate([FromBody] InputTimeZoneModel inDate)
         {
             try
             {
+                if (!_timeRepository.isCorrectDate(inDate.Datatime)) throw new Exception();
                 var result = new
                 {
                     ok = "ok",
-                    result = _timeRepository.getConvertTimeZone(inDate)
+                    result = _timeRepository.GetConvertTimeZone(inDate)
                 };
                 return Ok(result);
             }
@@ -113,14 +118,15 @@ namespace UnitTest_Exercise.Controllers
         }
         [HttpPost]
         [Route("getDiferentFormatTime")]
-        public IActionResult getDiferentFormatTime([FromBody] InputTimeZoneModel inDate)
+        public ActionResult getDiferentFormatTime([FromBody] InputTimeZoneModel inDate)
         {
             try
             {
+                if (!_timeRepository.isCorrectDate(inDate.Datatime)) throw new Exception();
                 var result = new
                 {
                     ok = "ok",
-                    result = _timeRepository.getConvertTimeZone(inDate).TimeOfDay
+                    result = _timeRepository.GetConvertTimeZone(inDate).TimeOfDay
                 };
                 return Ok(result);
             }

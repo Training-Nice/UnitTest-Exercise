@@ -5,10 +5,9 @@ namespace UnitTest_Exercise.DataAccessLayer.Repository.Interrfaces
 {
     public interface ITimeRepository
     {
-        DateTime getConvertTimeZone(InputTimeZoneModel inDate);
-        bool isDaylightSavingTime(DateTime date);
-        TimeSpan getDiferenceTime (InputTimeZoneModel date);
-
-
+         DateTime GetConvertTimeZone(InputTimeZoneModel inDate);
+         bool IsDaylightSavingTime(DateTime date);
+         TimeSpan GetDiferenceTime (InputTimeZoneModel date);
+        bool isCorrectDate(DateTime date);
     }
 }
