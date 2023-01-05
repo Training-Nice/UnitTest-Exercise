@@ -1,3 +1,6 @@
+using UnitTest_Exercise.DataAccessLayer.Repository;
+using UnitTest_Exercise.DataAccessLayer.Repository.Interrfaces;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
@@ -6,6 +9,11 @@ builder.Services.AddControllers();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
+
+// Add Repository
+
+builder.Services.AddScoped<ITimeRepository, TimeRepository>();
+
 
 var app = builder.Build();
 
